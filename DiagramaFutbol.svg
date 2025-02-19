@@ -1,94 +1,102 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="151cm" height="50cm" viewBox="-2 61 3011 995" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="177cm" height="59cm" viewBox="-519 -121 3528 1178" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
-    <rect style="fill: #ffffff" x="-0.672042" y="196.983" width="194.8" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-0.672042" y="196.983" width="194.8" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="96.728" y="216.983">Usuario</text>
-    <rect style="fill: #ffffff" x="-0.672042" y="224.983" width="194.8" height="52"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-0.672042" y="224.983" width="194.8" height="52"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2.32796" y="238.183">+nombreUsuario: string</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2.32796" y="254.183">+docUsuario: int</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2.32796" y="270.183">+permisosUsuario: string</text>
-    <rect style="fill: #ffffff" x="-0.672042" y="276.983" width="194.8" height="52"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-0.672042" y="276.983" width="194.8" height="52"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2.32796" y="290.183">+registrarUsuario()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2.32796" y="306.183">+consultarUsuario()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2.32796" y="322.183">+desactivarUsuario()</text>
+    <rect style="fill: #ffffff" x="-517.672" y="-5.0174" width="194.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-517.672" y="-5.0174" width="194.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-420.272" y="14.9826">Usuario</text>
+    <rect style="fill: #ffffff" x="-517.672" y="22.9826" width="194.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-517.672" y="22.9826" width="194.8" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-514.672" y="36.1826">+nombreUsuario: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-514.672" y="52.1826">+docUsuario: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-514.672" y="68.1826">+permisosUsuario: string</text>
+    <rect style="fill: #ffffff" x="-517.672" y="74.9826" width="194.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-517.672" y="74.9826" width="194.8" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-514.672" y="88.1826">+registrarUsuario()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-514.672" y="104.183">+consultarUsuario()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-514.672" y="120.183">+desactivarUsuario()</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="515.328" y="180.166" width="210.2" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="515.328" y="180.166" width="210.2" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="620.428" y="200.166">Jugador</text>
-    <rect style="fill: #ffffff" x="515.328" y="208.166" width="210.2" height="116"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="515.328" y="208.166" width="210.2" height="116"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="221.366">+nombreJugador: string</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="237.366">+docJugador: int</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="253.366">+edadJugador: int</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="269.366">+telefonoJugador: int</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="285.366">+partidosJugados: int</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="301.366">+partidos: list</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="317.366">+rendimientoPartidos: list</text>
-    <rect style="fill: #ffffff" x="515.328" y="324.166" width="210.2" height="52"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="515.328" y="324.166" width="210.2" height="52"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="337.366">+registrarJugador()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="353.366">+consultarJugador()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="518.328" y="369.366">+desactivarJugador()</text>
+    <rect style="fill: #ffffff" x="-1.672" y="-21.8336" width="248.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1.672" y="-21.8336" width="248.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="122.678" y="-1.8336">Jugador</text>
+    <rect style="fill: #ffffff" x="-1.672" y="6.1664" width="248.7" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1.672" y="6.1664" width="248.7" height="164"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="19.3664">+nombreJugador: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="35.3664">+docJugador: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="51.3664">+categoria: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="67.3664">+fechaNacimientoJugador: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="83.3664">+estaturaJugador: float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="99.3664">+pesoJugador: float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="115.366">+telefonoJugador: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="131.366">+partidosJugados: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="147.366">+partidos: list</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="163.366">+rendimientoPartidos: list</text>
+    <rect style="fill: #ffffff" x="-1.672" y="170.166" width="248.7" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1.672" y="170.166" width="248.7" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="183.366">+registrarJugador()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="199.366">+consultarJugador()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="215.366">+desactivarJugador()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="231.366">+consultarPartidosJugados()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="247.366">+consultarRendimiento()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="263.366">+consultarDatosfisicosJugador()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1.328" y="279.366">+consultarCategoria()</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="511.228" y="507.982" width="187.1" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="511.228" y="507.982" width="187.1" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="604.778" y="527.982">Profesor</text>
-    <rect style="fill: #ffffff" x="511.228" y="535.982" width="187.1" height="52"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="511.228" y="535.982" width="187.1" height="52"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="514.228" y="549.182">+nombreProfesor: string</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="514.228" y="565.182">+docProfesor: int</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="514.228" y="581.182">+telefonoProfesor</text>
-    <rect style="fill: #ffffff" x="511.228" y="587.982" width="187.1" height="52"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="511.228" y="587.982" width="187.1" height="52"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="514.228" y="601.182">+registrarProfesor()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="514.228" y="617.182">+consultarProfesor()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="514.228" y="633.182">+desactivarProfesor()</text>
+    <rect style="fill: #ffffff" x="-5.772" y="305.982" width="187.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-5.772" y="305.982" width="187.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="87.778" y="325.982">Profesor</text>
+    <rect style="fill: #ffffff" x="-5.772" y="333.982" width="187.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-5.772" y="333.982" width="187.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-2.772" y="347.182">+nombreProfesor: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-2.772" y="363.182">+docProfesor: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-2.772" y="379.182">+telefonoProfesor: int</text>
+    <rect style="fill: #ffffff" x="-5.772" y="385.982" width="187.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-5.772" y="385.982" width="187.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-2.772" y="399.182">+registrarProfesor()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-2.772" y="415.182">+consultarProfesor()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-2.772" y="431.182">+desactivarProfesor()</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="194.128,266.983 354.728,266.983 354.728,266.166 515.328,266.166 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="356.728" y="262.575"></text>
-    <polygon style="fill: #000000" points="358.728,262.575 358.728,254.575 366.728,258.575 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="198.128" y="262.983">1</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="511.328" y="262.166">1...n</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-322.872,64.9826 -162.272,64.9826 -162.272,112.166 -1.672,112.166 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-160.272" y="84.5745"></text>
+    <polygon style="fill: #000000" points="-158.272,84.5745 -158.272,76.5745 -150.272,80.5745 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-318.872" y="60.9826">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-5.672" y="108.166">1...n</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="194.128,266.983 352.678,266.983 352.678,577.982 511.228,577.982 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="354.678" y="418.482"></text>
-    <polygon style="fill: #000000" points="356.678,418.482 356.678,410.482 364.678,414.482 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="198.128" y="262.983">1</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="507.228" y="573.982">1..n</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-322.872,64.9826 -164.322,64.9826 -164.322,375.982 -5.772,375.982 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-162.322" y="216.482"></text>
+    <polygon style="fill: #000000" points="-160.322,216.482 -160.322,208.482 -152.322,212.482 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-318.872" y="60.9826">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-9.772" y="371.982">1..n</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="884.114" y="195.801" width="187.1" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="884.114" y="195.801" width="187.1" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="977.664" y="215.801">Partido</text>
-    <rect style="fill: #ffffff" x="884.114" y="223.801" width="187.1" height="68"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="884.114" y="223.801" width="187.1" height="68"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="887.114" y="237.001">+idPartido: string</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="887.114" y="253.001">+fechaPartido: string</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="887.114" y="269.001">+jugadoresPartido: list</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="887.114" y="285.001">+tipoPartido: string</text>
-    <rect style="fill: #ffffff" x="884.114" y="291.801" width="187.1" height="52"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="884.114" y="291.801" width="187.1" height="52"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="887.114" y="305.001">+registrarPartido()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="887.114" y="321.001">+consultarPartido()</text>
-    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="887.114" y="337.001">+filtrarJugadores()</text>
+    <rect style="fill: #ffffff" x="379.035" y="42.402" width="187.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="379.035" y="42.402" width="187.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="472.585" y="62.402">Partido</text>
+    <rect style="fill: #ffffff" x="379.035" y="70.402" width="187.1" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="379.035" y="70.402" width="187.1" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="83.602">+idPartido: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="99.602">+fechaPartido: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="115.602">+categoria: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="131.602">+jugadoresPartido: list</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="147.602">+tipoPartido: string</text>
+    <rect style="fill: #ffffff" x="379.035" y="154.402" width="187.1" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="379.035" y="154.402" width="187.1" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="167.602">+registrarPartido()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="183.602">+consultarPartido()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="382.035" y="199.602">+filtrarJugadores()</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="883.108,269.801 804.821,269.801 804.821,278.166 726.534,278.166 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="806.821" y="269.984"></text>
-    <polygon style="fill: #000000" points="808.821,269.984 808.821,261.984 816.821,265.984 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="879.108" y="265.801">1...n</text>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="730.534" y="274.166">1</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="378.029,124.402 313.032,124.402 313.032,132.166 248.036,132.166 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="315.032" y="124.284"></text>
+    <polygon style="fill: #000000" points="317.032,124.284 317.032,116.284 325.032,120.284 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="374.029" y="120.402">1...n</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="252.036" y="128.166">1</text>
   </g>
-  <text font-size="28.2222" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="432.904" y="99.608">
-    <tspan x="432.904" y="99.608">Diagrama De Clases</tspan>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="20.503" y="-92.5504">
+    <tspan x="20.503" y="-92.5504">Diagrama De Clases</tspan>
   </text>
   <text font-size="28.2222" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1798.42" y="89.8676">
     <tspan x="1798.42" y="89.8676">EML</tspan>
@@ -109,9 +117,9 @@
     <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1600.88" y="892.126">Profesor</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="2685.51" y="213.372" width="81.9" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2685.51" y="213.372" width="81.9" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2726.46" y="234.572">Partido</text>
+    <rect style="fill: #ffffff" x="2685.5" y="213.372" width="81.9" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="2685.5" y="213.372" width="81.9" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2726.45" y="234.572">Partido</text>
   </g>
   <g>
     <ellipse style="fill: #ffffff" cx="1407.52" cy="298.892" rx="70.05" ry="18"/>
@@ -252,45 +260,67 @@
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1785.41,1008.54 1780.41,998.54 1785.41,1001.04 1790.41,998.54 "/>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="2953.4" cy="354.264" rx="54.65" ry="18"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2953.4" cy="354.264" rx="54.65" ry="18"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2953.4" y="358.264">idPartido</text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2918.75" y1="362.264" x2="2988.05" y2="362.264"/>
+    <ellipse style="fill: #ffffff" cx="2953.39" cy="354.264" rx="54.65" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2953.39" cy="354.264" rx="54.65" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2953.39" y="357.464">idPartido</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="2918.74" y1="362.264" x2="2988.04" y2="362.264"/>
   </g>
   <g>
     <ellipse style="fill: #ffffff" cx="2633.16" cy="362.588" rx="66.2" ry="18"/>
     <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2633.16" cy="362.588" rx="66.2" ry="18"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2633.16" y="366.588">fechaPartido</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2633.16" y="365.788">fechaPartido</text>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="2804.04" cy="356.453" rx="81.6" ry="18"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2804.04" cy="356.453" rx="81.6" ry="18"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2804.04" cy="356.453" rx="73.6" ry="14"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2804.04" y="360.453">jugadoresPartido</text>
+    <ellipse style="fill: #ffffff" cx="2804.04" cy="356.452" rx="81.6" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2804.04" cy="356.452" rx="81.6" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2804.04" cy="356.452" rx="73.6" ry="14"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2804.04" y="359.652">jugadoresPartido</text>
   </g>
   <g>
-    <ellipse style="fill: #ffffff" cx="2465.96" cy="351.696" rx="62.35" ry="18"/>
-    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2465.96" cy="351.696" rx="62.35" ry="18"/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2465.96" y="355.696">tipoPartido</text>
+    <ellipse style="fill: #ffffff" cx="2465.95" cy="351.696" rx="62.35" ry="18"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="2465.95" cy="351.696" rx="62.35" ry="18"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="2465.95" y="354.896">tipoPartido</text>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2685.51,231.372 2465.96,231.372 2465.96,323.96 "/>
-    <polygon style="fill: #000000" points="2465.96,331.46 2460.96,321.46 2465.96,323.96 2470.96,321.46 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2465.96,331.46 2460.96,321.46 2465.96,323.96 2470.96,321.46 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2685.5,231.372 2465.95,231.372 2465.95,323.96 "/>
+    <polygon style="fill: #000000" points="2465.95,331.46 2460.95,321.46 2465.95,323.96 2470.95,321.46 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2465.95,331.46 2460.95,321.46 2465.95,323.96 2470.95,321.46 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2685.51,231.372 2633.16,231.372 2633.16,334.852 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2685.5,231.372 2633.16,231.372 2633.16,334.852 "/>
     <polygon style="fill: #000000" points="2633.16,342.352 2628.16,332.352 2633.16,334.852 2638.16,332.352 "/>
     <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2633.16,342.352 2628.16,332.352 2633.16,334.852 2638.16,332.352 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2767.41,231.372 2953.4,231.372 2953.4,326.528 "/>
-    <polygon style="fill: #000000" points="2953.4,334.028 2948.4,324.028 2953.4,326.528 2958.4,324.028 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2953.4,334.028 2948.4,324.028 2953.4,326.528 2958.4,324.028 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2767.4,231.372 2953.39,231.372 2953.39,326.528 "/>
+    <polygon style="fill: #000000" points="2953.39,334.028 2948.39,324.028 2953.39,326.528 2958.39,324.028 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2953.39,334.028 2948.39,324.028 2953.39,326.528 2958.39,324.028 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2767.41,231.372 2804.04,231.372 2804.04,328.717 "/>
-    <polygon style="fill: #000000" points="2804.04,336.217 2799.04,326.217 2804.04,328.717 2809.04,326.217 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2804.04,336.217 2799.04,326.217 2804.04,328.717 2809.04,326.217 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2767.4,231.372 2804.04,231.372 2804.04,328.716 "/>
+    <polygon style="fill: #000000" points="2804.04,336.216 2799.04,326.216 2804.04,328.716 2809.04,326.216 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2804.04,336.216 2799.04,326.216 2804.04,328.716 2809.04,326.216 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="683.925" y="26.668" width="202.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="683.925" y="26.668" width="202.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="785.175" y="46.668">Rendimiento Jugador</text>
+    <rect style="fill: #ffffff" x="683.925" y="54.668" width="202.5" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="683.925" y="54.668" width="202.5" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="67.868">+docJugador: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="83.868">+metrosRecorridos: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="99.868">+pasesRealizados: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="115.868">+golesRealizados: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="131.868">+numeroFaltas: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="147.868">+pasesFallidos: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="163.868">+golesFallidos: int</text>
+    <rect style="fill: #ffffff" x="683.925" y="170.668" width="202.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="683.925" y="170.668" width="202.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="183.868">+registrarDatos()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="686.925" y="199.868">+consultarDatos()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="566.135,128.402 625.03,128.402 625.03,112.668 683.925,112.668 "/>
+    <polygon style="fill: #000000" points="629.03,120.535 629.03,112.535 637.03,116.535 "/>
   </g>
 </svg>
