@@ -61,6 +61,62 @@ INSERT INTO empleados (idEmpleado, idDeptoFK, idCargoFK, nombreEmpleado, edademp
 ('E0008', 'D005', 'C001','Fernando López', '33', 60000, 2016),
 ('E0009', 'D005', 'C004','Marta Sánchez', '28', 59000, 2021);
 
+/* Punto 1 */
+select nombreEmpleado, edadEmpleado,salarioempleado from empleados;
+
+/* Punto 2 */
+select nombreEmpleado, salarioEmpleado from empleados where salarioEmpleado >= 4000;
+
+/* Punto 3 */
+select nombreEmpleado, salarioEmpleado from empleados where idDeptoFK in ('D004','D005');
+
+/* Punto 4 */
+select nombreEmpleado, edadEmpleado from empleados where (edadEmpleado between 30 and 40) and edadEmpleado != 30 and edadEmpleado != 40;
+
+/* Punto 5 */
+select nombreEmpleado, anioContrato from empleados where anioContrato > 2020;
+
+/* Punto 6 */
+select count(*)  as total from empleados where idDeptoFK = 'D001';
+select count(*)  as total from empleados where idDeptoFK = 'D002';
+select count(*)  as total from empleados where idDeptoFK = 'D003';
+select count(*)  as total from empleados where idDeptoFK = 'D004';
+select count(*)  as total from empleados where idDeptoFK = 'D005';
+
+/* Punto 7 */
+select avg(salarioEmpleado)  as total from empleados;
+
+ /* Punto 8 */
+ select nombreEmpleado from empleados where nombreEmpleado like 'A%' or nombreEmpleado like 'C%';
+ 
+/* Punto 9 */
+select nombreEmpleado, idDeptoFK from empleados where idDeptoFK != 'D002';
+
+/* Punto 10 */
+select nombreEmpleado , MAX(salarioEmpleado) from empleados where salarioEmpleado =(select MAX(salarioEmpleado) from empleados);
+
+
+/* salarios de mayor a menor */
+select nombreEmpleado, salarioEmpleado from empleados order by salarioEmpleado asc;
+
+/* :( */
+select nombreDepto,idDepto from departamentos where (select count(*) as total from empleados where idDeptoFK = idDepto) is not null;
+
+/* */
+select nombreEmpleado, (YEAR(curdate())-anioContrato), anioContrato from empleados;
+
+/**/
+select nombreEmpleado, salarioEmpleado from empleados order by salarioEmpleado desc limit 3;
+
+select nombreEmpleado, anioContrato, salarioEmpleado,salarioEmpleado*0.1 as bono from empleados where (YEAR(curdate()) - anioContrato) > 5;
+
+select count(*) as empleadosSobrePromedio,avg(salarioEmpleado) as salarioPromedio  from empleados where (salarioEmpleado > (select avg(salarioEmpleado) from empleados ));
+
+select nombreDepto, (select count(*) from empleados where idDeptoFK = idDepto) as cantidadEmpleados  from departamentos order by (select count(*) from empleados where idDeptoFK = idDepto ) desc; 
+
+
+select idDeptoFK, count(*) as 'total empleados' from empleados group by idDeptoFK having count(*) >= 1;
+
 /* join: 
 inner join: devuelve las filas comunes en ambas tablas.
 left join: devuelve las filas de la tabla izquierda, junto con las fials que coincidan con la tabla derecha.
@@ -76,7 +132,7 @@ select nombreCargo,rangoCargo,descCargo as descripcion from cargo where rangoCar
 
 /* mostrar en pantalla los empleados que tengan un cargo específico */
 select nombreEmpleado,nombreCargo, descCargo as descripcion 
-from empleados inner join cargo on empleados.idCargoFK = 'C002' and cargo.idCargo = 'C002';
+from empleados inner join cargo on empleados.idCargoFK = 'C001' and cargo.idCargo = 'C001';
 
 /* mostrar empleados con más de 3 años de antigüedad, su depto, salario y cargo */
 
