@@ -108,6 +108,68 @@ BEGIN
 END
 // DELIMITER ;
 
+
+-- Vistas en SQL
+-- son como Consultas, se almacenan en la base de datos (son una tabla virtual)
+-- no permite hacer cambios en las tablas reales
+
+-- create view vistaMascotas as select valoresConsulta from nombreTabla where condiciones
+create view vistaMascotas as select nombreMascota from mascota;
+drop view vistaClientes;
+create view vistaClientes as select * from cliente where telefono like '%4%' or telefono like '%6%' or telefono like '%7%';
+
+-- Realizamos una consulta de la lista para ejecutarla
+select * from vistaMascotas;
+select * from vistaClientes;
+
 CALL consultarVacunasMascotas(1);
 
-	
+/*
+Triggers:
+	before insert | after insert
+    before update | after update
+    before delete | after delete
+*/
+
+create table consolidado(
+idMascota int primary key,
+nombreMascota varchar (15),
+generoMascota varchar (15),
+razaMascota varchar (15),
+cantidad int (10));
+
+drop trigger registrarConsolidadoMascota;
+DELIMITER //
+	create trigger registrarConsolidadoMascota after insert on mascota for each row
+    begin 
+		insert into consolidado values (NEW.mascota,NEW.nombreMascota,NEW.generoMascota,NEW.razaMascota,NEW.cantidad);
+    end
+// DELIMITER ;
+
+insert into mascota values (6,'mascota prueba','macho','criollo',1);
+
+
+-- tabla clientes eliminados	
+create table clientesEliminados(
+cedulaCliente int primary key,
+nombreCliente varchar (15),
+apellidoCliente varchar (15),
+direccionCliente varchar (10),
+telefono int (10),
+idMascotaFK int
+);
+
+drop trigger if exists registrarClienteEliminado;
+DELIMITER //
+	create trigger registrarClienteEliminado before delete on cliente for each row
+    begin 
+		insert into clientesEliminados values (OLD.cedulaCliente,OLD.nombreCliente,OLD.apellidoCliente,OLD.direccionCliente,OLD.telefono,OLD.idMascotaFK);
+    end
+// DELIMITER ;
+
+select * from cliente;
+insert into cliente values (00000000001,'José','Reyes','Direc1',0123456789,1);
+delete from clientesEliminados;
+delete from cliente where nombreCliente = 'José';
+select * from clientesEliminados;
+
