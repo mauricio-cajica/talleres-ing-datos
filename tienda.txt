@@ -1,0 +1,7 @@
+use tienda
+db.createCollection('producto')
+db.producto.insertMany([{'nombre':'Jean','costo':20000,'cantidad':10},{'nombre':'camisa negra','costo':15000,'cantidad':20},{'nombre':'gorra','costo':50000,'cantidad':15},{'nombre':'reloj','costo':100000,'cantidad':7},{'nombre':'zapatos','costo':25000,'cantidad':10}])
+db.createCollection('usuario')
+db.usuario.insertMany([{'nombre':'Mauricio','cedula':1023372327,'telefono':3115521291},{'nombre':'Maria','cedula':1023372326,'telefono':3115521290},{'nombre':'Mario','cedula':1023372328,'telefono':3115521292},{'nombre':'Jose','cedula':1023372329,'telefono':3115521293},{'nombre':'Julia','cedula':111111111,'telefono':3115521294}])
+db.createCollection('venta')
+db.venta.insertMany([{'valor compra':1},{'valor compra':2},{'valor compra': 3},{'valor compra': 4},{'valor compra': 5}])
