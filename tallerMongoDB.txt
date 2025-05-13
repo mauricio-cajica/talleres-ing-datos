@@ -1,0 +1,16 @@
+use tallerMongoDB
+db.createCollection("usuarios")
+db.usuarios.insertMany([{'nombre':'Juan Perez', 'edad':30, 'correo':'juan.perez@urosario.com'},{'nombre':'Ana López', 'edad':25, 'correo':'ana.lopez@urosario.com'},{'nombre':'Luis Torres','edad':35,'correo':'luis.torres@urosario.com'}])
+db.usuarios.find()
+db.usuarios.find({'nombre':{$eq:'Ana López'}})
+db.usuarios.find({'edad':{$gte:30}})
+db.usuarios.updateOne( {nombre:'Juan Perez'}, {$set:{'edad': 31} })
+db.usuarios.updateMany( {edad:{$gte:30}}, {$set:{activo: true} })
+db.usuarios.deleteOne({nombre:'Luis Torres'})
+db.usuarios.deleteMany({edad:{$lt:30}})
+db.productos.insertMany([{nombre:'mouse',costo:50000, categoria:'electronica' },{nombre:'camisa',costo:35000, categoria:'ropa'},{nombre:'mesa',costo:150000, categoria:'hogar'},{nombre:'cuaderno',costo: 30000, categoria:'escolar'},{nombre:'lapiz',costo:2000, categoria:'escolar'}])
+db.productos.find({costo:{$gt:100}})
+db.productos.find().sort({precio:-1})\
+db.productos.updateMany({},{$set:{in_stock:true}})
+db.productos.updateMany({costo:{$gt:500} },{$set:{in_stock:false}})
+db.productos.deleteMany({costo:{$lt:50}})
